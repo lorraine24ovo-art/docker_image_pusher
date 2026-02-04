@@ -1,5 +1,5 @@
 # Dify 核心服务镜像（无代理前缀）
-
+langgenius/dify-plugin-daemon
 langgenius/dify-api:latest
 langgenius/dify-web:latest
 
