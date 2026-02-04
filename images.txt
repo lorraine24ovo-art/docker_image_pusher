@@ -1,6 +1,15 @@
+# Dify 核心服务镜像（无代理前缀）
 nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+postgres:16-alpine
+redis:alpine
+weaviate/weaviate:1.25.5
+langgenius/dify-api:latest
+langgenius/dify-web:latest
+
+# 可选服务
+# elastic/filebeat:latest
+# minio/minio:latest
+
+# 架构指定示例
+# nginx --platform=linux/amd64
+# langgenius/dify-api:latest --platform=linux/arm64
