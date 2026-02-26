@@ -1,5 +1,3 @@
 
 ultralytics/ultralytics:latest-arm64
-ultralytics/ultralytics:latest
-influxdb:latest
-grafana/grafana:latest
+
