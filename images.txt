@@ -1,4 +1,5 @@
-# Dify 核心服务镜像（无代理前缀）
+
+ultralytics/ultralytics:latest-arm64
 ultralytics/ultralytics:latest
 influxdb:latest
 grafana/grafana:latest
