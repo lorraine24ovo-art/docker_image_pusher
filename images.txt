@@ -1,1 +1,1 @@
-influxdb:latest
+influxdb:influxdb:2
